@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please input your num:");
+        int num = scanner.nextInt();
+        int a = (int) (Math.random()*(100+1));
+        while ( num != a){
+            if (num>a){
+            System.out.println("Sorry, too high");
+                num = scanner.nextInt();
+        } else if (num<a) {
+            System.out.println("Sorry, too low");
+            num = scanner.nextInt();
+        }
+    }
+        if (num == a){
+            System.out.print("Good job! Number " + a + " is correct.");
+        }
+    }
+}
+
