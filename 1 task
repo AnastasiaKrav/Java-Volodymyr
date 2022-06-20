@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        int age = 15;
+        if (age<0){
+        System.out.println("Sorry");
+    } else if (age<=17) {
+            System.out.println("Yung");
+        }else if (age<=24) {
+            System.out.println("Adult");
+        }else {
+            System.out.println("Elder rings king");
+        }
+    }
+}
